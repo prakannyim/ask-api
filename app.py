@@ -3,7 +3,7 @@ from flask_cors import CORS
 import os
 import requests
 
-APP = Flask(__name__)
+app = Flask(__name__)
 
 # Autoriser le site public khmvoice
 CORS(APP, resources={
