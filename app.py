@@ -6,7 +6,7 @@ import requests
 app = Flask(__name__)
 
 # Autoriser le site public khmvoice
-CORS(APP, resources={
+CORS(app, resources={
     r"/api/*": {
         "origins": [
             "https://www.khmvoice.org",
